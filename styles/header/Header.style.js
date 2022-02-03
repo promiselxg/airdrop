@@ -48,7 +48,7 @@ export const Header__hero = styled.div`
   height: calc(100vh - 80px);
 
   @media screen and (max-width: 768px) {
-    height: 100vh;
+    height: 80vh;
     padding-bottom: 50px;
   }
 `;
