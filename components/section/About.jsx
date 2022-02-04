@@ -42,14 +42,14 @@ const About = () => {
             <About__right>
               <About__content>
                 <div className="desc">
-                  <h1>Redistribution</h1>
+                  <h1>Redistribution.</h1>
                   <p>
                     To reward holders of the token we redistribute 4% of every
-                    transaction to all holders of the token
+                    transaction to all holders of the token.
                   </p>
                 </div>
                 <div className="desc">
-                  <h1>Rewards Holding</h1>
+                  <h1>Rewards Holding.</h1>
                   <p>
                     4% of each transaction is redistributed to token holders.
                     That means you earn more Terkehh by just holding them in
@@ -57,10 +57,10 @@ const About = () => {
                   </p>
                 </div>
                 <div className="desc">
-                  <h1>Locked Liquidty</h1>
+                  <h1>Locked Liquidty.</h1>
                   <p>
-                    Unruggable, majority of LP tokens locked & some burned so
-                    theres always LP.
+                    Unruggable, majority of LP tokens locked &amp; some burned
+                    so theres always LP.
                   </p>
                 </div>
               </About__content>
