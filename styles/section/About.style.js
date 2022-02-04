@@ -2,8 +2,10 @@ import styled from 'styled-components';
 
 export const About__wrapper = styled.section`
   width: 100%;
-  min-height: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+
   @media screen and (max-width: 820px) {
     height: 100%;
   }
@@ -16,6 +18,26 @@ export const About__container = styled.div`
   display: flex;
   align-items: center;
   height: 100vh;
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    right: 0;
+    background: linear-gradient(#2196f3, #e91e63);
+    transform: translate(-120px, 20px);
+    border-radius: 50%;
+
+    @media screen and (min-width: 1400px) {
+      transform: translate(-240px, 20px);
+    }
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+
   @media screen and (max-width: 820px) {
     flex-direction: column;
     padding: 40px 30px;
@@ -28,6 +50,7 @@ export const About__container = styled.div`
 `;
 export const About__left = styled.div`
   flex: 0.6;
+  z-index: 5;
   h1 {
     font-size: 50px;
   }
@@ -77,11 +100,16 @@ export const About__content = styled.div`
   position: relative;
   .desc {
     width: 230px;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.1);
     padding: 20px;
     border-radius: 10px;
-
-    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.05);
+    z-index: 5;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(25px);
+    h1 {
+      color: var(--blue-bg);
+    }
     &:nth-child(1) {
       margin-bottom: 20px;
     }
@@ -89,7 +117,12 @@ export const About__content = styled.div`
     &:nth-child(2) {
       display: flex;
       flex-direction: column;
+
+      h1 {
+        margin-bottom: 10px;
+      }
     }
+
     &:nth-child(3) {
       position: absolute;
       right: 0;

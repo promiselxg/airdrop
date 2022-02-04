@@ -83,6 +83,9 @@ export const Hero__wrapper = styled.div`
     justify-content: center;
     margin-top: 50px;
 
+    button {
+      margin: 0 10px;
+    }
     @media screen and (max-width: 768px) {
       text-align: left;
       justify-content: left;

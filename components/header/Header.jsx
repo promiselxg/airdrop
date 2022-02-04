@@ -18,12 +18,12 @@ const Header = () => {
         <Container>
           <Header__top>
             <Header__logo>
-              <h1>Logo</h1>
+              <h1>VAST</h1>
             </Header__logo>
             <Header__right>
-              <nav>
+              {/* <nav>
                 <NavLink to="/" label="About" />
-              </nav>
+              </nav> */}
               <Nav__btn>
                 <Button
                   label="Connect wallet"
@@ -37,12 +37,18 @@ const Header = () => {
           <Header__hero>
             <Hero__wrapper>
               <h1>
-                We are currently giving out $2,000 worth of $token A to 200
-                Lucky persons.
+                We are currently giving out $1,000,000 worth of $VAST as airdrop
+                to prospect users.
               </h1>
               <div className="hero__btn">
                 <Button
                   label="claim free airdrop"
+                  hoverBg="#051937"
+                  bgColor="#0078D4"
+                  hoverColor="#0078D4"
+                />
+                <Button
+                  label="Get your referral link"
                   hoverBg="#051937"
                   bgColor="#0078D4"
                   hoverColor="#0078D4"

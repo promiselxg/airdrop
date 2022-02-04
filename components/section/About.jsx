@@ -22,12 +22,14 @@ const About = () => {
         <Container>
           <About__container>
             <About__left>
-              <h1>About us</h1>
+              <h1>About Us</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-                libero nulla vitae sint quia nobis laboriosam illo.
-                Exercitationem deleniti odit culpa quibusdam ad, corrupti
-                architecto inventore! Autem libero accusantium quod illo fugiat.
+                VAST can only grow and accomplish its mission with YOUR help. We
+                believe in the power of our community. Spread the word on social
+                media platforms, answer questions, help people, tell your
+                friends. Or, if you have specialized skills, contact us: smart
+                contract development, web development, multimedia/marketing etc.
+                We also welcome help in moderating our communities.
               </p>
               <div className="About__Icons">
                 <NavLink to="/" icon={<FiFacebook />} />
@@ -40,27 +42,25 @@ const About = () => {
             <About__right>
               <About__content>
                 <div className="desc">
-                  <h1>Heading 1</h1>
+                  <h1>Redistribution</h1>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-                    at ipsum provident optio accusamus eaque vel harum
-                    repellendus dolores porro.
+                    To reward holders of the token we redistribute 4% of every
+                    transaction to all holders of the token
                   </p>
                 </div>
                 <div className="desc">
-                  <h1>Heading 2</h1>
+                  <h1>Rewards Holding</h1>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-                    at ipsum provident optio accusamus eaque vel harum
-                    repellendus dolores porro.
+                    4% of each transaction is redistributed to token holders.
+                    That means you earn more Terkehh by just holding them in
+                    your wallet.
                   </p>
                 </div>
                 <div className="desc">
-                  <h1>Heading 3</h1>
+                  <h1>Locked Liquidty</h1>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-                    at ipsum provident optio accusamus eaque vel harum
-                    repellendus dolores porro.
+                    Unruggable, majority of LP tokens locked & some burned so
+                    theres always LP.
                   </p>
                 </div>
               </About__content>
