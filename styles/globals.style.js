@@ -1,7 +1,6 @@
 import styled, { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
-
 *{
   margin: 0;
   padding: 0;
@@ -16,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
   --text-color:#eee;
 }
 html,body{
+  
   background-color:whitesmoke;
   color:#212121;
   font-family: 'Poppins', sans-serif;
@@ -33,6 +33,8 @@ a{text-decoration:none }
 
 `;
 export const Container = styled.div`
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+  font-family: 'Poppins', sans-serif;
   max-width: 1200px;
   width: 100%;
   margin-left: auto;
