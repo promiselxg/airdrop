@@ -67,10 +67,10 @@ export const Hero__wrapper = styled.div`
     line-height: 5.8rem;
 
     @media screen and (max-width: 768px) {
-      font-size: 35px;
+      font-size: 28px;
       text-align: left;
       max-width: 100%;
-      line-height: 4.5rem;
+      line-height: 3.5rem;
     }
   }
 
@@ -89,6 +89,12 @@ export const Hero__wrapper = styled.div`
     @media screen and (max-width: 768px) {
       text-align: left;
       justify-content: left;
+      flex-direction: column;
+
+      button {
+        margin: 8px 0;
+        width: 100%;
+      }
     }
   }
 `;
